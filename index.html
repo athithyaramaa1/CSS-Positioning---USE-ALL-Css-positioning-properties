@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navbar with CSS Positioning</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: grey;
+            padding: 1px;
+            color: red;
+            text-align: center;
+            position: relative;
+        }
+
+        nav {
+            background-color: blue;
+            overflow: hidden;
+            position: static;
+            display: flex;
+        }
+
+        nav a {
+            color: yellow;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            margin-left: 60px
+        }
+
+        section {
+            position: relative;
+        }
+
+        footer {
+            background-color: purple;
+            color: cyan;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Navbar using all CSS Positioning values</h1>
+    </header>
+
+    <nav>
+        <a>Home</a>
+        <a>About</a>
+        <a>Contact</a>
+    </nav>
+
+    <section>
+        <h2 style="text-align: center">Intro</h2>
+        <p style="text-align: center">This is Athithya, BTech CSE student from Chennai. </p>
+    </section>
+
+    <footer>
+        <p>&copy; All Rights Reserved</p>
+        <p>~Athithya</p>
+    </footer>
+
+</body>
+</html>
